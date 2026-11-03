@@ -5,11 +5,11 @@ workflows:
   build:
     jobs:
       - build:
-        filters:
-          branches:
-            only:
-              - main
-              
+          filters:
+            branches:
+              only:
+                - main
+
 jobs:
   build:
     working_directory: ~/ExampleApplication
